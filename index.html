@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculating System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Grade Calculating System </h2>
+
+
+    <div class="container" >
+        <div class="d1">
+
+            <div class="sub">
+                <label >Hindi</label>
+                <input id="b1" type="number" name="" placeholder="marks"
+                >
+            </div>
+
+            <div class="sub">
+                <label >Marathi</label>
+                <input id="b2" type="number" name="" placeholder="marks"
+                >
+            </div>
+
+            <div class="sub">
+                <label >English</label>
+                <input id="b3" type="number" name="" placeholder="marks"
+                >
+            </div>
+
+            <div class="sub">
+                <label >Science</label>
+                <input id="b4" type="number" name="" placeholder="marks"
+                >
+            </div>
+
+            <div class="sub">
+                <label >History</label>
+                <input id="b5" type="number" name="" placeholder="marks"
+                >
+            </div>
+            <button onclick="cal()">Calculate</button>
+
+        </div>
+
+        <div class="d2">
+            <table>
+                <tr>
+                    <td>Total Marks:</td>
+                    <td>500</td>
+                </tr>
+                <tr>
+                    <td>Obtained Marks:</td>
+                    <td id="ob"></td>
+                </tr>
+                <tr>
+                    <td>Percentage:</td>
+                    <td id="per"></td>
+                </tr>
+                <tr>
+                    <td>Remarks:</td>
+                    <td id="re"></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

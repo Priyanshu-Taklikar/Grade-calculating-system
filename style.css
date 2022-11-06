@@ -1,0 +1,43 @@
+h2 {
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.d1 {
+    margin-top: 20px;
+    padding: 13px;
+    top: 200px;
+    right: 400px;
+    width: 400px;
+    height: 275px;
+    border: 3px solid #73AD21;
+}
+
+.d2 {
+    top: 250px;
+    right: 600px;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    margin-top: 20px;
+    
+
+}
+
+button {
+    margin-top: 30px;
+    background-color: rgb(255, 196, 46);
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.sub {
+    padding: 5px;
+    margin: 5px;
+    
+}
+
